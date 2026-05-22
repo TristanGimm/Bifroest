@@ -1,0 +1,11 @@
+# Fokus zwischen Fenstern wechseln (Alt + h/j/k/l)
+alt - h : yabai -m window --focus west
+alt - j : yabai -m window --focus south
+alt - k : yabai -m window --focus north
+alt - l : yabai -m window --focus east
+
+# Ein Fenster auf dem Bildschirm verschieben (Alt + Shift + h/j/k/l)
+alt + shift - h : yabai -m window --swap west
+alt + shift - j : yabai -m window --swap south
+alt + shift - k : yabai -m window --swap north
+alt + shift - l : yabai -m window --swap east
