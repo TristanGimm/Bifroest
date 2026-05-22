@@ -20,3 +20,5 @@ alt - p : yabai -m display --focus prev || yabai -m display --focus last
 alt + shift - 1 : yabai -m window --display 1; yabai -m display --focus 1
 alt + shift - 2 : yabai -m window --display 2; yabai -m display --focus 2
 alt + shift - 3 : yabai -m window --display 3; yabai -m display --focus 3
+
+alt - q : yabai -m window --close
