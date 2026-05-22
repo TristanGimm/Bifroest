@@ -10,8 +10,8 @@ yabai -m config right_padding 10
 
 echo "yabai configuration loaded.."
 
-# --- (Floating Windows)
-yabai -m rule --add app="^Systemeinstellungen$" manage=off
-yabai -m rule --add app="^System Settings$" manage=off
-yabai -m rule --add app="^Rechner$" manage=off
-yabai -m rule --add app="^Calculator$" manage=off
+# --- (Floating Windows) ---
+yabai -m rule --add app="^Systemeinstellungen$" manage=off grid=4:4:1:1:2:2
+yabai -m rule --add app="^System Settings$" manage=off grid=4:4:1:1:2:2
+yabai -m rule --add app="^Rechner$" manage=off grid=4:4:1:1:2:2
+yabai -m rule --add app="^Calculator$" manage=off grid=4:4:1:1:2:2
