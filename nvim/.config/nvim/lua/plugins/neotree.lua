@@ -2,6 +2,11 @@ return {
   {
     "folke/snacks.nvim",
     opts = {
+      styles = {
+        terminal = {
+          height = 25,
+        },
+      },
       picker = {
         enabled = true,
         actions = {
@@ -28,6 +33,10 @@ return {
             layout = {
               preset = "sidebar",
               preview = "main",
+              layout = {
+                width = 30,
+                min_width = 30,
+              },
             },
           },
         },
